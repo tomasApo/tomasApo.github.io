@@ -7,6 +7,7 @@ image:
   path: /assets/img/SmartBasil/coverphoto3.png
 ---
 
+
 ## Problem:
 *Stop killing my Basil plant and to allow me to go on 1month vacations without stressing about my Herbs.*
 
