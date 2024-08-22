@@ -6,10 +6,10 @@ mermaid: true
 image: 
   path: /assets/img/SmartBasil/coverphoto3.png
 ---
-
+Moving to england required me to switch from my usual mediteranian diet. To combate this drastic switch I made a smart plant pot with artificial lights to keep providing me with basil all year round, no matter the British weather.
 
 ## Problem:
-*Stop killing my Basil plant and to allow me to go on 1month vacations without stressing about my Herbs.*
+*My basil plants die in the winter, and have minimal growth*
 
 ## Solution proposed:
 ![PCB](/assets/img/SmartBasil/finalProduct.png){: width="300" .w-50 .right}
