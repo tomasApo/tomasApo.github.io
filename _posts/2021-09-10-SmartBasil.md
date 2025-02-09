@@ -6,7 +6,7 @@ mermaid: true
 image: 
   path: /assets/img/SmartBasil/coverphoto3.png
 ---
-Moving to england required me to switch from my usual mediteranian diet. To combate this drastic switch I made a smart plant pot with artificial lights to keep providing me with basil all year round, no matter the British weather.
+Moving to England required me to switch from my usual mediteranian diet. To combate this drastic switch I made a smart plant pot with artificial lights to keep providing me with basil all year round, no matter the British weather.
 
 ## Problem:
 *My basil plants die in the winter, and have minimal growth*

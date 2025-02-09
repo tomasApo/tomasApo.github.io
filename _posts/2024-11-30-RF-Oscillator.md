@@ -1,5 +1,5 @@
 ---
-title: A 5.4GHz Integrated Circuit Oscillator
+title: 5.4GHz Integrated Circuit Oscillator
 categories: []
 tags: [RF, Keysight ADS, Colpitts]
 pin: false
