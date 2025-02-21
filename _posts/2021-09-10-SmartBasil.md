@@ -1,6 +1,6 @@
 ---
 title: SmartBasil
-description:  Smart plant pot
+description:  Smart plant pot with auto watering and Real time clock for light control. 
 categories: []
 tags: [ESP32, featherS2]
 mermaid: true
