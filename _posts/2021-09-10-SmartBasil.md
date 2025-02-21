@@ -1,5 +1,6 @@
 ---
 title: SmartBasil
+description:  Smart plant pot
 categories: []
 tags: [ESP32, featherS2]
 mermaid: true

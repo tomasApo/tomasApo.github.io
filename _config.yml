@@ -18,7 +18,7 @@ title: Tomás Apolónia's portfolio # the main title
 
 tagline: Hardware Engineer # it will display as the sub-title
 
-description: # used by seo meta and the atom feed
+description: # used by seo meta and the atom feed    
   A minimalist portfolio to showcase my projctss in jekyll theme using Markdown writing.
 
 # Fill in the protocol & hostname for your site.
