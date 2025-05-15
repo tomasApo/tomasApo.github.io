@@ -16,10 +16,10 @@ timezone:
 
 title: Tomás Apolónia's portfolio # the main title
 
-tagline: Hardware Engineer # it will display as the sub-title
+tagline: Electronics Engineer # it will display as the sub-title
 
 description: # used by seo meta and the atom feed    
-  A minimalist portfolio to showcase my projctss in jekyll theme using Markdown writing.
+  An Electronics Engineer Portfolio
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
