@@ -14,12 +14,13 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Tomás Apolónia's portfolio # the main title
+title: ApoloElectro # the main title
 
-tagline: Electronics Engineer # it will display as the sub-title
+tagline: Electronics. Engineered. # it will display as the sub-title
 
-description: # used by seo meta and the atom feed    
-  An Electronics Engineer Portfolio
+description: # used by seo meta and the atom feed
+  Electronics engineering by Tomás Apolónia, Portugal. Hardware and PCB design, embedded systems,
+  power electronics and prototyping.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -72,7 +73,7 @@ theme_mode: # [light|dark]
 img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/logo_v2.png
+avatar: /assets/img/brand/apoloelectro-icon-512.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true

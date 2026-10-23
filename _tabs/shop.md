@@ -38,24 +38,26 @@ order: 1
   justify-content: flex-start; /* 👈 Ensures left alignment for images */
   gap: 20px;
   padding: 20px;
-  background: #f8f9fa;
-  border-radius: 12px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
   margin-bottom: 20px;
 }
 
 
 .mx-master-img {
   max-width: 200px;
-  border-radius: 8px;
 }
 
 .mx-master-content {
   text-align: left;
 }
 
-.title, .mx-text {
-  color: #212529; /* Dark text for light mode */
+.title {
+  color: var(--heading-color);
+}
+
+.mx-text {
+  color: var(--text-color);
 }
 
 .shop-buttons {
@@ -67,23 +69,30 @@ order: 1
   display: inline-block;
   padding: 10px 15px;
   margin-right: 10px;
-  border-radius: 6px;
   text-decoration: none;
-  font-weight: bold;
-  color: white;
-  transition: 0.3s;
+  font-weight: 700;
+  transition: 0.2s;
 }
 
+/* ApoloElectro buttons: graphite primary, amber secondary */
 .eu-shop {
-  background: #007bff;
+  background: var(--heading-color);
+  color: var(--main-bg);
 }
 
 .intl-shop {
-  background: #28a745;
+  background: #f2a21f;
+  color: #121418;
+}
+
+.content .shop-buttons a.shop-btn {
+  border-bottom: 0;
 }
 
 .shop-btn:hover {
-  filter: brightness(1.2);
+  background: #f2a21f;
+  color: #121418;
+  text-decoration: none;
 }
 
 /* Dark mode styles */

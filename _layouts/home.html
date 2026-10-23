@@ -47,6 +47,50 @@ refactor: true
   {% endfor %}
 {% endif %}
 
+{% if paginator.page == 1 %}
+  {% assign email = site.social.email | split: '@' %}
+
+  <section id="brand-hero" class="mx-xl-1" aria-label="Introduction">
+    <div class="hero-copy">
+      <p class="hero-kicker">Electronics engineering · Portugal</p>
+      <h2 class="hero-title">Electronics.<br><span>Engineered.</span></h2>
+      <p class="hero-lede">
+        Hardware, embedded systems and power electronics design, from the first schematic to production.
+      </p>
+      <div class="hero-actions">
+        <a
+          class="hero-btn"
+          href="javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')"
+        >
+          Discuss a project
+        </a>
+        <a class="hero-link" href="#projects">See projects ↓</a>
+      </div>
+    </div>
+    <div class="hero-panel" role="presentation"></div>
+  </section>
+
+  <section id="brand-services" class="ae-section px-xl-1" aria-label="Services">
+    <header class="ae-section-head">
+      <h2>Services</h2>
+      <span>04</span>
+    </header>
+    <ol>
+      <li><span class="idx">01</span><strong>Hardware &amp; PCB design</strong><span>Schematic, layout, DFM and design review</span></li>
+      <li><span class="idx">02</span><strong>Embedded systems</strong><span>Firmware, bring-up and test fixtures</span></li>
+      <li><span class="idx">03</span><strong>Power electronics</strong><span>Battery systems, BMS and power conversion</span></li>
+      <li><span class="idx">04</span><strong>Prototyping</strong><span>From proof of concept to pilot run</span></li>
+    </ol>
+  </section>
+
+  <section id="projects" class="ae-section px-xl-1" aria-label="Projects">
+    <header class="ae-section-head">
+      <h2>Projects</h2>
+      <span>{{ site.posts | where_exp: 'item', 'item.hidden != true' | size }}</span>
+    </header>
+  </section>
+{% endif %}
+
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
     <article class="card-wrapper card">
