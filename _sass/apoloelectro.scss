@@ -84,13 +84,6 @@ blockquote {
     }
   }
 
-  .site-subtitle {
-    @extend %ae-label;
-
-    margin-top: 1rem;
-    font-style: normal;
-  }
-
   ul li.nav-item {
     a.nav-link {
       font-weight: 700;

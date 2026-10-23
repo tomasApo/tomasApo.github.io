@@ -16,7 +16,7 @@ timezone:
 
 title: ApoloElectro # the main title
 
-tagline: Electronics. Engineered. # it will display as the sub-title
+tagline: Electronics engineering, Portugal # used in search and link-preview titles; not shown on the page
 
 description: # used by seo meta and the atom feed
   Electronics engineering by Tomás Apolónia, Portugal. Hardware and PCB design, embedded systems,
