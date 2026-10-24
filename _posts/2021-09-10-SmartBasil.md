@@ -4,6 +4,7 @@ description:  Smart plant pot with auto watering and Real time clock for light c
 categories: []
 tags: [ESP32, featherS2]
 mermaid: true
+published: false
 image: 
   path: /assets/img/SmartBasil/coverphoto3.png
 ---
